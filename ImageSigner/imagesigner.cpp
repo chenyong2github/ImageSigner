@@ -1,6 +1,6 @@
 #include "imagesigner.h"
 
-ImageSigner::ImageSigner(QWidget *parent, Qt::WFlags flags)
+ImageSigner::ImageSigner(QWidget *parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
 {
 	ui.setupUi(this);

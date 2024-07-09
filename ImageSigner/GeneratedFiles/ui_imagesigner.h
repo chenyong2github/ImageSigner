@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'imagesigner.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,24 +10,22 @@
 #define UI_IMAGESIGNER_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
-#include <QtGui/QApplication>
-#include <QtGui/QButtonGroup>
-#include <QtGui/QCheckBox>
-#include <QtGui/QGroupBox>
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QHeaderView>
-#include <QtGui/QLabel>
-#include <QtGui/QMainWindow>
-#include <QtGui/QMenu>
-#include <QtGui/QMenuBar>
-#include <QtGui/QPushButton>
-#include <QtGui/QRadioButton>
-#include <QtGui/QSlider>
-#include <QtGui/QSpacerItem>
-#include <QtGui/QStatusBar>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QWidget>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
+#include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
+#include <QtWidgets/QSlider>
+#include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -547,36 +545,36 @@ public:
 
     void retranslateUi(QMainWindow *ImageSignerClass)
     {
-        ImageSignerClass->setWindowTitle(QApplication::translate("ImageSignerClass", "ImageSigner", 0, QApplication::UnicodeUTF8));
-        actionOpen_Source_Image->setText(QApplication::translate("ImageSignerClass", "Open Source Image", 0, QApplication::UnicodeUTF8));
-        actionOpen_Sign_Image->setText(QApplication::translate("ImageSignerClass", "Open Sign Image", 0, QApplication::UnicodeUTF8));
-        actionExit->setText(QApplication::translate("ImageSignerClass", "Exit", 0, QApplication::UnicodeUTF8));
-        actionAbout_ImageSigner->setText(QApplication::translate("ImageSignerClass", "About ImageSigner", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("ImageSignerClass", "Source Image", 0, QApplication::UnicodeUTF8));
-        label_11->setText(QApplication::translate("ImageSignerClass", "Sign Image", 0, QApplication::UnicodeUTF8));
-        groupBox->setTitle(QApplication::translate("ImageSignerClass", "Sign Infomations", 0, QApplication::UnicodeUTF8));
-        groupBox_2->setTitle(QApplication::translate("ImageSignerClass", "Sign to color channel", 0, QApplication::UnicodeUTF8));
-        checkBox_R->setText(QApplication::translate("ImageSignerClass", "R", 0, QApplication::UnicodeUTF8));
-        checkBox_G->setText(QApplication::translate("ImageSignerClass", "G", 0, QApplication::UnicodeUTF8));
-        checkBox_B->setText(QApplication::translate("ImageSignerClass", "B", 0, QApplication::UnicodeUTF8));
-        groupBox_3->setTitle(QApplication::translate("ImageSignerClass", "Sign mode", 0, QApplication::UnicodeUTF8));
-        radioButton_Enlarge->setText(QApplication::translate("ImageSignerClass", "enlarge", 0, QApplication::UnicodeUTF8));
-        radioButton_Reduce->setText(QApplication::translate("ImageSignerClass", "Reduce", 0, QApplication::UnicodeUTF8));
-        groupBox_4->setTitle(QApplication::translate("ImageSignerClass", "Power", 0, QApplication::UnicodeUTF8));
-        pushButton_DoSign->setText(QApplication::translate("ImageSignerClass", "Do Sign", 0, QApplication::UnicodeUTF8));
-        pushButton_SaveTo->setText(QApplication::translate("ImageSignerClass", "Save to file", 0, QApplication::UnicodeUTF8));
-        label_4->setText(QApplication::translate("ImageSignerClass", "R", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("ImageSignerClass", "Spectrum", 0, QApplication::UnicodeUTF8));
-        label_3->setText(QApplication::translate("ImageSignerClass", "Amplitude", 0, QApplication::UnicodeUTF8));
-        label_5->setText(QApplication::translate("ImageSignerClass", "G", 0, QApplication::UnicodeUTF8));
-        label_6->setText(QApplication::translate("ImageSignerClass", "Spectrum", 0, QApplication::UnicodeUTF8));
-        label_7->setText(QApplication::translate("ImageSignerClass", "Amplitude", 0, QApplication::UnicodeUTF8));
-        label_8->setText(QApplication::translate("ImageSignerClass", "B", 0, QApplication::UnicodeUTF8));
-        label_9->setText(QApplication::translate("ImageSignerClass", "Spectrum", 0, QApplication::UnicodeUTF8));
-        label_10->setText(QApplication::translate("ImageSignerClass", "Amplitude", 0, QApplication::UnicodeUTF8));
-        label_12->setText(QApplication::translate("ImageSignerClass", "Signed Image", 0, QApplication::UnicodeUTF8));
-        menuFile->setTitle(QApplication::translate("ImageSignerClass", "File", 0, QApplication::UnicodeUTF8));
-        menuAbout->setTitle(QApplication::translate("ImageSignerClass", "About", 0, QApplication::UnicodeUTF8));
+        ImageSignerClass->setWindowTitle(QCoreApplication::translate("ImageSignerClass", "ImageSigner", nullptr));
+        actionOpen_Source_Image->setText(QCoreApplication::translate("ImageSignerClass", "Open Source Image", nullptr));
+        actionOpen_Sign_Image->setText(QCoreApplication::translate("ImageSignerClass", "Open Sign Image", nullptr));
+        actionExit->setText(QCoreApplication::translate("ImageSignerClass", "Exit", nullptr));
+        actionAbout_ImageSigner->setText(QCoreApplication::translate("ImageSignerClass", "About ImageSigner", nullptr));
+        label->setText(QCoreApplication::translate("ImageSignerClass", "Source Image", nullptr));
+        label_11->setText(QCoreApplication::translate("ImageSignerClass", "Sign Image", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("ImageSignerClass", "Sign Infomations", nullptr));
+        groupBox_2->setTitle(QCoreApplication::translate("ImageSignerClass", "Sign to color channel", nullptr));
+        checkBox_R->setText(QCoreApplication::translate("ImageSignerClass", "R", nullptr));
+        checkBox_G->setText(QCoreApplication::translate("ImageSignerClass", "G", nullptr));
+        checkBox_B->setText(QCoreApplication::translate("ImageSignerClass", "B", nullptr));
+        groupBox_3->setTitle(QCoreApplication::translate("ImageSignerClass", "Sign mode", nullptr));
+        radioButton_Enlarge->setText(QCoreApplication::translate("ImageSignerClass", "enlarge", nullptr));
+        radioButton_Reduce->setText(QCoreApplication::translate("ImageSignerClass", "Reduce", nullptr));
+        groupBox_4->setTitle(QCoreApplication::translate("ImageSignerClass", "Power", nullptr));
+        pushButton_DoSign->setText(QCoreApplication::translate("ImageSignerClass", "Do Sign", nullptr));
+        pushButton_SaveTo->setText(QCoreApplication::translate("ImageSignerClass", "Save to file", nullptr));
+        label_4->setText(QCoreApplication::translate("ImageSignerClass", "R", nullptr));
+        label_2->setText(QCoreApplication::translate("ImageSignerClass", "Spectrum", nullptr));
+        label_3->setText(QCoreApplication::translate("ImageSignerClass", "Amplitude", nullptr));
+        label_5->setText(QCoreApplication::translate("ImageSignerClass", "G", nullptr));
+        label_6->setText(QCoreApplication::translate("ImageSignerClass", "Spectrum", nullptr));
+        label_7->setText(QCoreApplication::translate("ImageSignerClass", "Amplitude", nullptr));
+        label_8->setText(QCoreApplication::translate("ImageSignerClass", "B", nullptr));
+        label_9->setText(QCoreApplication::translate("ImageSignerClass", "Spectrum", nullptr));
+        label_10->setText(QCoreApplication::translate("ImageSignerClass", "Amplitude", nullptr));
+        label_12->setText(QCoreApplication::translate("ImageSignerClass", "Signed Image", nullptr));
+        menuFile->setTitle(QCoreApplication::translate("ImageSignerClass", "File", nullptr));
+        menuAbout->setTitle(QCoreApplication::translate("ImageSignerClass", "About", nullptr));
     } // retranslateUi
 
 };

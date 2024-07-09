@@ -1,13 +1,13 @@
 #ifndef IMAGESIGNER_H
 #define IMAGESIGNER_H
 
-#include <QtGui/QMainWindow>
+#include <QtWidgets/QMainWindow>
 #include "ui_imagesigner.h"
-#include <QFileDialog>
+#include <QtWidgets/QFileDialog>
 #include <QDir>
 #include <QPainter>
-#include <QMessageBox>
-#include <Qwidget.h>
+#include <QtWidgets/QMessageBox>
+#include <QtWidgets/Qwidget.h>
 #include "Pt_FFT.h"
 #include "ui_About.h"
 
@@ -31,7 +31,7 @@ class ImageSigner : public QMainWindow
 	Q_OBJECT
 
 public:
-	ImageSigner(QWidget *parent = 0, Qt::WFlags flags = 0);
+	ImageSigner(QWidget *parent = 0, Qt::WindowFlags flags = 0);
 	~ImageSigner();
 	void SignImage();
 	void DisplaySourceImage();

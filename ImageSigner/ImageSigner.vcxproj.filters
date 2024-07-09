@@ -41,42 +41,27 @@
     <ClCompile Include="imagesigner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_imagesigner.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_imagesigner.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_imagesigner.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="Pt_FFT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="imagesigner.h">
+    <QtMoc Include="imagesigner.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="imagesigner.ui">
+    </QtMoc>
+    <QtUic Include="imagesigner.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="imagesigner.qrc">
+    </QtUic>
+    <QtRcc Include="imagesigner.qrc">
       <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="About.ui">
+    </QtRcc>
+    <QtUic Include="About.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_imagesigner.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
     <ClInclude Include="Pt_FFT.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_About.h">
-      <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

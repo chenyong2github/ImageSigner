@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'About.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,15 +10,12 @@
 #define UI_ABOUT_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
-#include <QtGui/QApplication>
-#include <QtGui/QButtonGroup>
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QHeaderView>
-#include <QtGui/QLabel>
-#include <QtGui/QPushButton>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QWidget>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -77,9 +74,9 @@ public:
 
     void retranslateUi(QWidget *Form_About)
     {
-        Form_About->setWindowTitle(QApplication::translate("Form_About", "About", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("Form_About", "ImageSigner v1.0 Code by DBinary from www.52pojie.cn", 0, QApplication::UnicodeUTF8));
-        pushButton->setText(QApplication::translate("Form_About", "Ok", 0, QApplication::UnicodeUTF8));
+        Form_About->setWindowTitle(QCoreApplication::translate("Form_About", "About", nullptr));
+        label->setText(QCoreApplication::translate("Form_About", "ImageSigner v1.0 Code by DBinary from www.52pojie.cn", nullptr));
+        pushButton->setText(QCoreApplication::translate("Form_About", "Ok", nullptr));
     } // retranslateUi
 
 };
